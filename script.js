@@ -1,3 +1,5 @@
-function sayHello() {
-  alert("Hello from JavaScript!");
-}
+<script>
+  document.getElementById('switch').addEventListener('click', function() {
+    document.body.classList.toggle('black');
+  });
+</script>
